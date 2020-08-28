@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-sketch</title>
+        <author>Anastazy</author>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="etch-a-sketch.css">
+    </head>
+    <body>
+        <div id="mainDiv">
+<h1 id="header">ETCH-A-SKETCH</h1>
+<div id="buttons">
+<button id="gridResizer" title="Values above 64 might significantly slow down execution time.">Change grid size</button>
+<input type="number" id="gridWidth" placeholder="Grid width, max is 128">
+<input type="number" id="gridHeight" placeholder="Grid height, max is 128">
+<button id="cellShape" title="Click to switch between rectangular and square cells. If the type is rectangular (default), you must specify both the height and the width 
+of the grid. Otherwise, grid height will be ignored when creating new grid and grid height will equal grid width, ensuring that the cells are squares.">Cell type: rectangular</button>
+<button id="colorRandomizer" title="If it's active, colors will be constantyl changed while you are drawing. 
+Automatically sets opacity to 1, but you can change it back if you want to">Random colors: OFF</button>
+</br>
+<button id="colorChangingButton"><input type="color" id="colorPicker">   Color</button>
+<span>Choose opacity increment rate: </span>
+<button class="opacity" id="opacityPointZeroFive">0.05</button>
+<button class="opacity" id="opacityPointOne">0.1</button>
+<button class="opacity" id="opacityPointTwentyFive">0.25</button>
+<button class="opacity" id="opacityPointFive">0.5</button>
+<button class="opacity" id="opacityAllIn">All in (1)</button>    </br>
+
+
+
+</div>
+                <div id="container">
+
+
+
+
+                </div>
+
+
+
+        </div>
+        <script src="etch-a-sketch.js"></script>
+    </body>
+</html>

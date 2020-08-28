@@ -1,0 +1,85 @@
+html {
+    font-family: "Comic Sans MS", sans-serif;
+    color: blue;
+    text-shadow: -2px -2px 3px #ff6200, 5px 5px 14px #00ff72, 0px 0px 30px #ffe4c4;
+    background-color: #e7edf2; 
+    height: 200%;
+    margin-right: 10%;
+} 
+author {
+    display: none;
+}
+body {
+    position: relative;
+    min-height: 80%;
+    left: 6%;
+    right: 0%;
+    top: 5%;
+    bottom: 5%;
+    background-color: ghostwhite;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding: 42.3px 30px;
+    font-size: 20px;
+    -webkit-box-shadow: -7px -7px 14px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px -7px 14px 10px rgba(0,0,0,0.75);
+    box-shadow: -7px -7px 14px 10px rgba(0,0,0,0.75);
+}
+#container {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+#header {
+    color: orangered;
+    text-shadow: 0px 0px 5px aqua;
+    text-align: center;
+    font-size: 3em
+}
+button {
+    height: 70px;
+    width: 160px;
+    background-color: ivory;
+    font-family: inherit;
+    color: crimson;
+    font-size: 1em;
+}
+.cell {
+    position: relative;
+    display: inline-block;
+}
+.row {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#buttons {
+    position: relative;
+    left: 8%;
+}
+
+#gridResizer {
+    font-size: 0.94em;
+}
+#cellShape {
+    width: 250px;
+}
+#colorRandomizer {
+    width: 250px;
+}
+
+.opacity{
+    width: 100px;
+}
+
+.opacityActive {
+    background-color: crimson;
+    color: ivory;
+}

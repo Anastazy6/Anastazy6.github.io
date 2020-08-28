@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Rock, Paper, Scissors</title>
+            <author>Anastazy</author>
+            <meta charset="UTF-8">
+            <link href="RPS.css" rel="stylesheet">
+        </head>
+        <body>
+            <div class="A4sheet"> <!-- it's A4 sheet AND some padding-->
+                <h1>Rock Paper Scissors</h1>
+                <br>
+                <div class="realShit">
+                    <p>Welcome to the game. You shall play Rock Paper Scissors agains the computer. Click on the "Start/Restart" button to initialize the game 
+                        (it will just remove the placeholder values so that the script can do its job) and anytime you want to reset the results</p>
+                        <button id="startRestartGame">Start/Restart</button>
+                    <p>Games played: <span class="outputSpan" id="gamesPlayedCounter">here you'll see the number of played games until you reset it</span><br>
+                        Wins: <span class="outputSpan" id="winsCounter">here you'll see how many games you won</span><br>
+                        Loses: <span class="outputSpan" id="losesCounter">here you'll see how many times you've lost so far</span><br>
+                        Draws: <span class="outputSpan" id="drawsCounter">hope it's self explanatory at this point.</span></p>
+                        <hr>
+                    </p>
+                        Last round you played: <span class="outputSpan" id="playerLastChoice">YOU HAVEN'T PLAYED YET</span><br>
+                        Last round the computer played: <span class="outputSpan" id="computerLastChoice">"waiting for user input"</span><br>
+                        The winner of the last round is: <span class="outputSpan" id="lastGameWinner">THE GAME HASN'T STARTED YET</span></p>
+
+                        <p>Click on one of the buttons below to play Rock, Paper or Scissors</p>
+                        <button class="buttonPlay" id="playRock">Rock</button>
+                        <button class="buttonPlay" id="playPaper">Paper</button>
+                        <button class="buttonPlay" id="playScissors">Scissors</button>
+
+                        <p>Don't fancy <span id="currentFont">Comic Sans</span>? Maybe you want to try one of these fonts?</p>
+                        <button class="buttonFont" id="fontComicSans">Comic Sans</button>
+                        <button class="buttonFont" id="fontHelvetica">Helvetica</button>
+                        <button class="buttonFont" id="fontTMR">Times New Roman</button>
+                        <button class="buttonFont" id="fontConsolas">Consolas</button>
+                        <p>This will disrupt the current size of the text but CSS is not important in 
+                            this project, thus I don't care that much.
+                        </p>
+                </div>
+
+            </div>
+
+
+
+            <script src="RPS.js"></script>
+        </body>
+    </html>
